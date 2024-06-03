@@ -1,10 +1,12 @@
 // import React from 'react'
 
+import { Box } from "@chakra-ui/react"
+
 const ChatBox = () => {
   return (
-    <div>
+    <Box color="white">
       ChatBox
-    </div>
+    </Box>
   )
 }
 

@@ -1,10 +1,14 @@
 // import React from 'react'
 
+import { Box } from "@chakra-ui/react"
+import { ChatState } from "../contexts/ChatProvider";
+
 const MyChats = () => {
+  const {selectedChat,setSelectedChat,user,chat, setChat} = ChatState();
   return (
-    <div>
+    <Box color="white">
       My Chat
-    </div>
+    </Box>
   )
 }
 
